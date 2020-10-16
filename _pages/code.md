@@ -1,14 +1,14 @@
 ---
 layout: page
-title: projects
-permalink: /projects/
-description: projects that I've been working on during my PhD
+title: code
+permalink: /code/
+description: open-source projects that I've built with Prof. Daniel Palomar
 nav: true
 ---
 
 <div class="projects grid">
 
-  {% assign sorted_projects = site.projects | sort: "importance" %}
+  {% assign sorted_projects = site.code | sort: "importance" %}
   {% for project in sorted_projects %}
   <div class="grid-item">
     {% if project.redirect %}

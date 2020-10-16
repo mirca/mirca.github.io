@@ -2,10 +2,9 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: Materials for courses you taught. Replace this text with your description.
+description: Materials for courses I've been a teaching assistant for.
 nav: true
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
-
-Organize your courses by years, topics, or universities, however you like!
+   * IEDA/ELEC3180: [Data Driven Portfolio Optimization](https://canvas.ust.hk/courses/29151/assignments/syllabus)
+   * ELEC5470/IEDA6100A: [Convex Optimization](https://canvas.ust.hk/courses/33513/assignments/syllabus)

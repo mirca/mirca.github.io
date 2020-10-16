@@ -6,19 +6,23 @@ description: <a href="#">Affiliations</a>. Address. Contacts. Moto. Etc.
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: profile.png
   address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Clear Water Bay</p>
+    <p>Hong Kong SAR, China</p>
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true  # includes social icons at the bottom of the page
+social: false  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com){:target="\_blank"}. You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Zé Vinícius is a PhD student at HKUST, in sunny Hong Kong, working with [Prof. Daniel Palomar](https://github.com/dppalomar)
+on interesting problems involving graphs and financial time series. Previously, he was a scientific software engineer intern
+at [NASA](https://exoplanets.nasa.gov/news/1529/meet-the-kepler-mission-team/), in Mountain View, California,
+and [NIST](https://www.nist.gov). He was a Google Summer of Code student for [OpenAstronomy](https://www.openastronomy.org) in 2016.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+He spends most of his time doing [research](https://scholar.google.com/citations?hl=en&user=ilvNpCoAAAAJ&view_op=list_works&sortby=pubdate)
+and [coding](https://github.com/mirca) (on [nvim](https://github.com/neovim/neovim)) that thing [dppalomar](https://github.com/dppalomar) asked about.
+In his free time, there is nothing better for him than swimming and crab hunting in the waters of Clear Water Bay and video-chatting with his dog, Pluto.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/){:target="\_blank"} and [Academicons](https://jpswalsh.github.io/academicons/){:target="\_blank"}, like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+[Résumé](/assets/pdf/resume.pdf)
