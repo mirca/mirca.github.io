@@ -5,3 +5,8 @@ _site
 .ruby-version
 Gemfile.lock
 .tweet-cache/
+assets/pdf/resume.aux
+assets/pdf/resume.fdb_latexmk
+assets/pdf/resume.fls
+assets/pdf/resume.log
+assets/pdf/resume.synctex.gz
