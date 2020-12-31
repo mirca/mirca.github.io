@@ -58,8 +58,8 @@ google_analytics: UA-XXXXXXXXX # out your google-analytics code
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: # your blog must have a name for it to show up in the nav bar
-blog_description: a simple whitespace theme for academics
+blog_name: new deep # your blog must have a name for it to show up in the nav bar
+blog_description: writing about Mandarin, open-water swimming, and research from pink glasses frame perspective
 permalink: /blog/:year/:title/
 
 # Pagination
