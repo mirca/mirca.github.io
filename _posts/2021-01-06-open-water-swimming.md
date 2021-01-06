@@ -19,9 +19,11 @@ So, let’s go:
 I cannot stress enough the importance of having a swimming buoy before endeavouring into open-water swimming.
 It is a must have equipment that provides at least three major functionalities:
 
-        * they help others (speed boats, jet skis, etc) to be aware of your location in the water which is critical to avoid collision;
-        * they increase your buoyancy and can be used as floating devices in case of injury;
-        * they serve as dry bag where you can store belongings and food.
+1. it helps others (speed boats, jet skis, etc) to be aware of your location in the water which is critical to avoid collision;
+
+2. it increases your buoyancy and can be used as floating devices in case of injury;
+
+3. it serves as dry bag where you can store belongings and food.
 
 **tip 2. know your surroundings**
 
