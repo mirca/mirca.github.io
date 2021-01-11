@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  beginner tips for open-water swimming
-date: 2020-01-06 04:47:00
+date: 2021-01-06 04:47:00
 description: enjoying open-water swimming responsibly
 ---
 
