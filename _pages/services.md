@@ -6,5 +6,4 @@ description: Professional services in academia.
 nav: true
 ---
 
-   * Reviewer for: [AISTATS 2021](http://aistats.org/aistats2021/)
-   * Reviewer for: [Signal Processing](https://www.journals.elsevier.com/signal-processing)
+   * Reviewer for: [AISTATS 2021](http://aistats.org/aistats2021/), [Signal Processing](https://www.journals.elsevier.com/signal-processing)
