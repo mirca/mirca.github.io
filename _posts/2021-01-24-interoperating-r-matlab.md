@@ -9,6 +9,13 @@ The [R.matlab](https://github.com/HenrikBengtsson/R.matlab) package,
 created by [Henrik Bengtsson](https://github.com/HenrikBengtsson/), makes it effortless
 to interoperate between R and MATLAB.
 
+Before starting, make sure to add the MATLAB binary to your ``PATH``.
+In macintosh computers running shells such as ``bash`` or ``zsh``, that can be done as:
+
+```
+export PATH="/Applications/MATLAB_R2017a.app/bin:$PATH"
+```
+
 Within an R session, we can create a MATLAB server as follows:
 
 {% highlight R %}
