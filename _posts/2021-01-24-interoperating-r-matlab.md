@@ -7,7 +7,7 @@ description: an ultra-tiny tutorial with the R.matlab package
 
 The [R.matlab](https://github.com/HenrikBengtsson/R.matlab) package,
 created by [Henrik Bengtsson](https://github.com/HenrikBengtsson/), makes it effortless
-to create a interoperate between R and MATLAB.
+to interoperate between R and MATLAB.
 
 Within an R session, we can create a MATLAB server as follows:
 
