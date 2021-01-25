@@ -2,7 +2,7 @@
 layout: post
 title:  interoperating R and MATLAB (TM)
 date: 2021-01-24 05:50:00
-description: an ultra-tiny tutorial
+description: an ultra-tiny tutorial with the R.matlab package
 ---
 
 The [R.matlab](https://github.com/HenrikBengtsson/R.matlab) package,
@@ -11,7 +11,7 @@ to create a interoperate between R and MATLAB.
 
 Within an R session, we can create a MATLAB server as follows:
 
-{% highlight R linenos %}
+{% highlight R %}
 
 library(R.matlab)
 Matlab$startServer(port=9942)
@@ -20,7 +20,7 @@ Matlab$startServer(port=9942)
 
 From another R session, the client, we can request a connection to the server by doing:
 
-{% highlight R linenos %}
+{% highlight R %}
 
 library(R.matlab)
 matlab <- Matlab(port=9942)
@@ -32,7 +32,7 @@ The instruction ``open(matlab)`` should return ``TRUE`` in case the connection w
 
 Now, we can use MATLAB at our disposal from the client R session:
 
-{% highlight R linenos %}
+{% highlight R %}
 
 setVariable(matlab, x = 1)
 y <- getVariable(matlab, "x")
@@ -41,7 +41,7 @@ y <- getVariable(matlab, "x")
 
 We can also evaluate MATLAB expressions:
 
-{% highlight R linenos %}
+{% highlight R %}
 
 evaluate(matlab, "z = 41 + 1;")
 zz <- getVariable(matlab, "z")
