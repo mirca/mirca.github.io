@@ -30,12 +30,21 @@ open(matlab)
 
 The instruction ``open(matlab)`` should return ``TRUE`` in case the connection was succesfull.
 
-Now, we can use MATLAB at our disposal from the client R session:
+Now, we can use MATLAB at our disposal from the client R session. For example, let's set the value
+of a MATLAB variable which we will denote by ``x`` and let's query that value:
 
 {% highlight R %}
 
 setVariable(matlab, x = 1)
 y <- getVariable(matlab, "x")
+
+{% endhighlight %}
+
+The variable ``y`` is a list object that contains, among other things, the value of the variable we requested:
+
+{% highlight R %}
+
+y$x
 
 {% endhighlight %}
 
