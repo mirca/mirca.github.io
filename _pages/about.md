@@ -9,7 +9,7 @@ profile:
   image: profile.jpg
   address: >
     <p>Tsim Sha Tsui</p>
-    <p>Hong Kong SAR, China</p>
+    <p>Hong Kong, China</p>
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
