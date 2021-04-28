@@ -7,4 +7,4 @@ nav: true
 ---
 
    * IEDA/ELEC3180: [Data Driven Portfolio Optimization](https://canvas.ust.hk/courses/29151/assignments/syllabus)
-   * ELEC5470/IEDA6100A: [Convex Optimization](https://canvas.ust.hk/courses/33513/assignments/syllabus)
+   * ELEC5470/IEDA6100A: [Convex Optimization](https://www.danielppalomar.com/elec5470---convex-optimization-fall-2020-21.html)
