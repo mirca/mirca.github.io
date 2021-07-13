@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-<title>Zé Vinícius   | zevini's website</title>
+<title>Zé Vinícius   | interoperating R and MATLAB (TM)</title>
 <meta name="description" content="zevini personal website
 ">
 
@@ -29,7 +29,7 @@
 <link rel="shortcut icon" href="/assets/img/favicon.png">
 <link rel="stylesheet" href="/assets/css/main.css">
 
-<link rel="canonical" href="/blog/">
+<link rel="canonical" href="/blog/2021/interoperating-r-matlab/">
 
 <!-- Theming-->
 
@@ -160,38 +160,61 @@
     <!-- Content -->
 
     <div class="container mt-5">
-      <div class="post">
+      
 
-  <div class="header-bar">
-    <h1>new deep</h1>
-    <h2>Mandarin, open-water swimming, and research</h2>
-  </div>
+<div class="post">
 
+  <header class="post-header">
+    <h1 class="post-title">interoperating R and MATLAB (TM)</h1>
+    <p class="post-meta">January 24, 2021</p>
+  </header>
 
-  <ul class="post-list">
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2021/admm-talk/">the alternating direction method of multipliers</a></h3>
-        <p class="post-meta">January 26, 2021</p>
-        <p>numerical optimization made easy</p>
-      </li>
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2021/interoperating-r-matlab/">interoperating R and MATLAB (TM)</a></h3>
-        <p class="post-meta">January 24, 2021</p>
-        <p>an ultra-tiny tutorial with the R.matlab package</p>
-      </li>
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2021/open-water-swimming/">beginner tips for open-water swimming</a></h3>
-        <p class="post-meta">January 6, 2021</p>
-        <p>enjoying open-water swimming responsibly</p>
-      </li>
-    
-  </ul>
+  <article class="post-content">
+    <p>The <a href="https://github.com/HenrikBengtsson/R.matlab">R.matlab</a> package,
+created by <a href="https://github.com/HenrikBengtsson/">Henrik Bengtsson</a>, makes it effortless
+to interoperate between R and MATLAB.</p>
+
+<p>Before starting, make sure to add the MATLAB binary to your <code class="language-plaintext highlighter-rouge">PATH</code>.
+In macintosh computers running shells such as <code class="language-plaintext highlighter-rouge">bash</code> or <code class="language-plaintext highlighter-rouge">zsh</code>, that can be done as:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>export PATH="/Applications/MATLAB_R2017a.app/bin:$PATH"
+</code></pre></div></div>
+
+<p>Within an R session, we can create a MATLAB server as follows:</p>
+
+<figure class="highlight"><pre><code class="language-r" data-lang="r"><span class="n">library</span><span class="p">(</span><span class="n">R.matlab</span><span class="p">)</span><span class="w">
+</span><span class="n">Matlab</span><span class="o">$</span><span class="n">startServer</span><span class="p">(</span><span class="n">port</span><span class="o">=</span><span class="m">9942</span><span class="p">)</span></code></pre></figure>
+
+<p>From another R session, the client, we can request a connection to the server by doing:</p>
+
+<figure class="highlight"><pre><code class="language-r" data-lang="r"><span class="n">library</span><span class="p">(</span><span class="n">R.matlab</span><span class="p">)</span><span class="w">
+</span><span class="n">matlab</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">Matlab</span><span class="p">(</span><span class="n">port</span><span class="o">=</span><span class="m">9942</span><span class="p">)</span><span class="w">
+</span><span class="n">open</span><span class="p">(</span><span class="n">matlab</span><span class="p">)</span></code></pre></figure>
+
+<p>The instruction <code class="language-plaintext highlighter-rouge">open(matlab)</code> should return <code class="language-plaintext highlighter-rouge">TRUE</code> in case the connection was succesfull.</p>
+
+<p>Now, we can use MATLAB at our disposal from the client R session. For example, let’s set the value
+of a MATLAB variable which we will denote by <code class="language-plaintext highlighter-rouge">x</code> and let’s query that value:</p>
+
+<figure class="highlight"><pre><code class="language-r" data-lang="r"><span class="n">setVariable</span><span class="p">(</span><span class="n">matlab</span><span class="p">,</span><span class="w"> </span><span class="n">x</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">1</span><span class="p">)</span><span class="w">
+</span><span class="n">y</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">getVariable</span><span class="p">(</span><span class="n">matlab</span><span class="p">,</span><span class="w"> </span><span class="s2">"x"</span><span class="p">)</span></code></pre></figure>
+
+<p>The variable <code class="language-plaintext highlighter-rouge">y</code> is a list object that contains, among other things, the value of the variable we requested:</p>
+
+<figure class="highlight"><pre><code class="language-r" data-lang="r"><span class="n">y</span><span class="o">$</span><span class="n">x</span></code></pre></figure>
+
+<p>We can also evaluate MATLAB expressions:</p>
+
+<figure class="highlight"><pre><code class="language-r" data-lang="r"><span class="n">evaluate</span><span class="p">(</span><span class="n">matlab</span><span class="p">,</span><span class="w"> </span><span class="s2">"z = 41 + 1;"</span><span class="p">)</span><span class="w">
+</span><span class="n">zz</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">getVariable</span><span class="p">(</span><span class="n">matlab</span><span class="p">,</span><span class="w"> </span><span class="s2">"z"</span><span class="p">)</span></code></pre></figure>
+
+<p>And many more, like reading/writing MAT files, executing scripts/functions, and so on :)</p>
+
+<p>If that’s useful for you, be sure to check out the <a href="https://cran.r-project.org/web/packages/R.matlab/R.matlab.pdf">API reference</a> of R.matlab.</p>
+
+  </article>
 
   
-
 
 </div>
 

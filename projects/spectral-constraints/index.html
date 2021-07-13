@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-<title>Zé Vinícius   | zevini's website</title>
+<title>Zé Vinícius   | Graph Learning with Spectral Constraints</title>
 <meta name="description" content="zevini personal website
 ">
 
@@ -29,7 +29,7 @@
 <link rel="shortcut icon" href="/assets/img/favicon.png">
 <link rel="stylesheet" href="/assets/css/main.css">
 
-<link rel="canonical" href="/blog/">
+<link rel="canonical" href="/projects/spectral-constraints/">
 
 <!-- Theming-->
 
@@ -78,7 +78,7 @@
           </li>
           
           <!-- Blog -->
-          <li class="nav-item active">
+          <li class="nav-item ">
             <a class="nav-link" href="/blog/">
               blog
               
@@ -162,36 +162,49 @@
     <div class="container mt-5">
       <div class="post">
 
-  <div class="header-bar">
-    <h1>new deep</h1>
-    <h2>Mandarin, open-water swimming, and research</h2>
-  </div>
+  <header class="post-header">
+    <h1 class="post-title">Graph Learning with Spectral Constraints</h1>
+    <p class="post-description"></p>
+  </header>
 
+  <article>
+    <p><em>This is a draft incomplete description of this project</em></p>
 
-  <ul class="post-list">
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2021/admm-talk/">the alternating direction method of multipliers</a></h3>
-        <p class="post-meta">January 26, 2021</p>
-        <p>numerical optimization made easy</p>
-      </li>
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2021/interoperating-r-matlab/">interoperating R and MATLAB (TM)</a></h3>
-        <p class="post-meta">January 24, 2021</p>
-        <p>an ultra-tiny tutorial with the R.matlab package</p>
-      </li>
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2021/open-water-swimming/">beginner tips for open-water swimming</a></h3>
-        <p class="post-meta">January 6, 2021</p>
-        <p>enjoying open-water swimming responsibly</p>
-      </li>
-    
-  </ul>
+<p>In this project we propose optimization algorithms to learn graphs with certain spectral properties
+such as \(k\)-components and bipartite.  The key idea in this project lies in the fact that the structure
+of graphs can be controlled via the eigenvalues of their Laplacian and/or adjacency matrices. For instance,
+the Laplacian matrix of \(k\)-component graphs contains exactly \(k\) zero eigenvalues, whereas the adjacency matrix
+of bipartite graphs contains symmetric eigenvalues around zero.</p>
 
-  
+<p>From a statistical point of view, we assume a Laplacian matrix model for the precision matrix of a
+Gaussian Markov Random Field (aka weighted, undirected graphical model):</p>
 
+\[\mathbf{x} \sim \mathcal{N}(\mathbf{0}, \mathbf{L}^\dagger),\]
+
+<p>where \(\mathbf{x} \in \mathbb{R}^p\) is a \(p\)-dimensional random vector representing the nodes of the graph
+and \(\mathbf{L}\) is its corresponding precision matrix which satisfies the Laplacian properties, i.e.,
+\(\mathbf{L}\mathbf{1} = \mathbf{0}\),
+\(L_{ij} = L_{ji} \leq 0\).</p>
+
+<p>The maximum likelihood estimator for this model can then be formulated as follows</p>
+
+\[\begin{array}{cl}
+    \underset{\mathbf{L} \succeq \mathbf{0}}{\mathsf{minimize}} &amp; \mathsf{tr}\left(\mathbf{S}\mathbf{L}\right)
+    - \log\mathrm{det}^*\left(\mathbf{L}\right),\\
+    \mathsf{subject~to} &amp; \mathsf{rank}(\mathbf{L}) = p-k,~ \mathbf{L}\mathbf{1} = \mathbf{0},~L_{ij} = L_{ji} \leq 0,
+  \end{array}\]
+
+<p>where \(\mathrm{det}^*(\mathbf{L})\) corresponds to the product of the positive eigenvalues of \(\mathbf{L}\).</p>
+
+<h3 id="publications">Publications</h3>
+<p>The publications associated with this project are the following:</p>
+
+<ol>
+  <li><a href="https://papers.nips.cc/paper/9339-structured-graph-learning-via-laplacian-spectral-constraints">Structured Graph Learning Via Laplacian Spectral Constraints</a> at NeurIPS 2019</li>
+  <li><a href="https://www.jmlr.org/papers/v21/19-276.html">A Unified Framework for Structured Graph Learning via Spectral Constraints</a> at JMLR 2020</li>
+</ol>
+
+  </article>
 
 </div>
 
