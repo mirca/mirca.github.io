@@ -1,4 +1,5 @@
 \documentclass[10pt]{article}
+\usepackage{multicol}
 %\usepackage[cmex10]{amsmath}
 \usepackage{array}
 \usepackage{mdwmath}
@@ -30,13 +31,13 @@
      \vspace{.5cm}
 
     \begin{minipage}[b]{9cm}
-      keywords: data analysis, optimization, machine learning, software development, quantitative research
+      keywords: data analysis, optimization, machine learning, software development, quantitative research, systematic strategies
     \end{minipage}
     \hfill
     \begin{minipage}[b]{5cm}
         \texttt{jvdmc@connect.ust.hk}\\
         \texttt{https://mirca.github.io}\\
-        \texttt{phone: +85254449062}\\
+        \texttt{phone: +852 5444 9062}\\
         \texttt{GitHub: @mirca}
     \end{minipage}
 
@@ -53,19 +54,21 @@
 \textbf{University of Maryland at College Park}, USA \\
 Brazil Scientific Mobility Program, Fully funded scholarship recipient \\
 
-\emph{B.Eng. in Electrical Engineering} \hfill \textit{2019} \\
+\emph{B.Eng. in Electrical Engineering} \hfill \textit{Class of 2019} \\
 \textbf{Federal University of Campina Grande}, Brazil
 
 \section*{Professional Experience}
 
-\emph{AI/Data Scientist Researcher Intern} \hfill \textit{Jun 2021 -- Aug 2021}
-\\\textbf{Shell Street Labs}, Hong Kong
-\\ {\small Developed \textsf{Python} tools for portfolio optimization and systematic strategies}
-\vspace{.5cm}
 
 \emph{Teaching Assistant} \hfill \textit{Feb 2020 -- Current}
 \\ \textbf{The Hong Kong University of Science and Technology}, Hong Kong
   \\ {\small\textit{Courses:} Data-driven Portfolio Optimization, Convex Optimization, Portfolio Optimization with \textsf{R}}
+\vspace{.5cm}
+
+\emph{AI/Data Scientist Researcher Intern} \hfill \textit{Summer 2021}
+  \\\textbf{Shell Street Labs}, \textbf{BFAM Partners}, Hong Kong
+  \\ {\small Developed \textsf{Python} tools to perform FX portfolio optimization and equity market regime identification for the}
+  \\ {\small  systematic strategies team.}
 \vspace{.5cm}
 
 %\emph{Machine Learning Mentor} \hfill \textit{May 2019  -- Aug 2019}
@@ -73,10 +76,8 @@ Brazil Scientific Mobility Program, Fully funded scholarship recipient \\
 %\\ {\small Guided students from fundamental concepts of linear algebra to state-of-the-art convolutional neural nets.}
 %\vspace{.5cm}
 
-
 \emph{Scientific Software Engineering Intern} \hfill \textit{Mar 2017 -- Feb 2018}
-\\\textbf{National Aeronautics and Space Administration}
-\\\textbf{Ames Research Center}, Silicon Valley, CA, USA
+\\\textbf{National Aeronautics and Space Administration}, \textbf{Ames Research Center}, Silicon Valley, CA, USA
 \\Kepler/K2 Guest Observer Office
 \\ {\small Developed open source \textsf{Python} code
     to assist scientists get the most out of NASA Kepler/K2 time series data.}
@@ -102,14 +103,10 @@ Brazil Scientific Mobility Program, Fully funded scholarship recipient \\
 \\ {\small Organizing the AstroPy efforts towards participating in the Google Summer of Code.}
 \vspace{.5cm}
 
-\emph{Google Summer of Code Organization Administrator} \hfill \textit{Summer 2019 -- Current}
-\\Admin for the OpenAstronomy organization during the Google Summer of Code 2019 and 2020
+\emph{Google Summer of Code Mentor and Organization Administrator} \hfill \textit{Summer 2018 -- Current}
+\\Admin and mentor for the OpenAstronomy organization during the Google Summer of Code
 \\ {\small Managing the OpenAstronomy efforts towards participating in the Google Summer of Code.}
 \vspace{.5cm}
-
-\emph{Google Summer of Code Mentor for the AstroPy Project} \hfill \textit{Summer 2018}
-\\Project title: Develop astropy tutorials on how to fit data
-\\ {\small Mentored an astronomy PhD student during her Google Summer of Code project with AstroPy.}
 
 
 \section*{Project Proposals}
@@ -133,7 +130,7 @@ Brazil Scientific Mobility Program, Fully funded scholarship recipient \\
     learning via spectral constraints. \textit{Journal of Machine Learning Research (JMLR)}, Jan. 2020.
   \item Kumar, S, Ying, J, \textbf{Cardoso, JVM}, Palomar, DP. Structured graph learning via Laplacian
     spectral constraints. \textit{Advances in Neural Information Processing Systems (NeurIPS)}, Dec. 2019. Acceptance rate: 21.6\%.
-  \item \textbf{Cardoso, JVM}, \textit{et. al.} Lightkurve: Kepler and TESS time series analysis in Python. \textit{Astrophysics Source Code Library}, 2018.
+  \item \textbf{Lightkurve Collaboration}, \textit{et. al.} Lightkurve: Kepler and TESS time series analysis in Python. \textit{Astrophysics Source Code Library}, 2018.
   \item Price-Whelan, AM, \textit{et. al.} The Astropy Project: Building an open-science project and status of the v2.0 Core Package, \textit{The Astronomical Journal 156}, 2018.
 \item Davanco, MI, Liu, J, Sapienza, L, Zhang, CZ, \textbf{Cardoso, JVM}, Verma, V, Mirin, R, Nam,
 SW, Srinivasan, K. Heterogeneous integration for on-chip quantum photonic circuits with single quantum dot devices.
@@ -146,19 +143,31 @@ For a complete list of my publications, please refer to my Google Scholar profil
 \begin{enumerate}
   \item Full travel funding to attend the workshop \textit{Preparing for TESS}, Center for Computational Astrophysics, Flatiron Institute, New York City, USA, 2018
   \item Selected to the workshop \textsf{Python} in Astronomy, Leiden, The Netherlands, 2017
-  %\item Selected, with full travel funding, to the S\~ao Paulo School of Advanced Science on Nanophotonics, S\~ao Paulo, Brazil, 2016
+  \item Selected, with full travel funding, to the S\~ao Paulo School of Advanced Science on Nanophotonics, S\~ao Paulo, Brazil, 2016
   \item Travel Grant (U\$ 2000,00) by the Institute of Electronic and Electrical Engineers to attend the IEEE APS Meeting 2016
-  %\item Young Author Recognition Award, International Telecommunication Union, ITU Kaleidoscope 2015
+  \item Young Author Recognition Award, International Telecommunication Union, ITU Kaleidoscope 2015
 \end{enumerate}
 
 
 \section*{Competencies}
 \begin{description}
-  \item[Coding:] \textsf{Python}, \textsf{R}, \textsf{C++}, git/GitHub, Unix shell, unit tests, continuous integration/development
-    \item[Courses:] Convex Optimization, Stochastic Processes, Deep Learning Architectures, Topological and Geometric Data Analysis
-    \item[\textsf{R} packages maintainer:] \textsf{spectralGraphTopology} (learning graphs from data), \textsf{riskParityPortfolio} (design of risk parity portfolios)
-    \item[\textsf{Python} packages maintainer:] \textsf{riskparity.py} (optimization of risk parity portfolios)
+  \item[Coding:] \textsf{Python}, \textsf{R}, \textsf{C/C++}, git/GitHub, Unix shell, unit tests, continuous integration/development
+  \item[Courses:] Convex Optimization, Stochastic Processes, Deep Learning Architectures, Topological and Geometric Data Analysis
 \end{description}
+
+\begin{multicols}{2}
+  \textsf{R} \textbf{packages developer}
+  \begin{itemize}
+    \item[$\triangleright$] \textsf{spectralGraphTopology}: learning graphs from data (40+ stars on GitHub)
+    \item[$\triangleright$] \textsf{riskParityPortfolio}: design of risk parity portfolios (60+ stars on GitHub)
+  \end{itemize}
+
+\columnbreak
+  \textsf{Python} \textbf{packages developer}
+      \begin{itemize}
+        \item[$\triangleright$] \textsf{riskparity.py}: optimization of risk parity portfolios (160+ stars on GitHub)
+      \end{itemize}
+\end{multicols}
 
 \end{titlepage}
 
