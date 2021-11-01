@@ -6,8 +6,6 @@ img: /assets/img/three-circles.png
 importance: 1
 ---
 
-_This is a draft incomplete description of this project_
-
 In this project we propose optimization algorithms to learn graphs with certain spectral properties
 such as $$k$$-components and bipartite.  The key idea in this project lies in the fact that the structure
 of graphs can be controlled via the eigenvalues of their Laplacian and/or adjacency matrices. For instance,
