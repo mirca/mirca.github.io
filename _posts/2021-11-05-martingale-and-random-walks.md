@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Markov Chains, Random Walks, and Martingales
-date: 2021-10-17 05:50:00
+date: 2021-11-05 05:50:00
 description: a brief collection of notes
 ---
 
@@ -48,10 +48,51 @@ The expected times to absorption, $$ \mu_1, \mu_2, \cdots, \mu_m $$, are the uni
 
 # Random Walks
 
-A stochastic process $$S_n = \sum_{i=1}^n X_i $$ is called a random walk if $$ \{X_i\}^\infty_{i=1}$$ are iid random variables
+A stochastic process $$S_n = \sum_{i=0}^n X_i $$ is called a random walk if $$ \{X_i\}^\infty_{i=0}$$ are iid random variables.
+
+If $$ X_i \in \{-1, 1\}$$ with probabilities $$p$$ and $$q$$, then $$S_n$$ is called a simple random walk. In addition, if $$ p = 0.5 $$, $$S_n$$ is called a symmetric random walk. In this case, we have
+$$ \mathbb{E}[S_n] = 0 and \mathbb{V}(S_n) = n$$.
+
+
+# Martingales
+
+A stochastic sequence $$ \left\{X_n : n \geq 0\right\} $$ is a martingale, or a submartingale, if, for all $$ n \geq 0 $$:
+   $$
+   \begin{cases}
+     \mathbb{E}[X_{n+1} | X_n = x_n, X_{n-1} = x_{n-1}, ..., X_0 = x_0] = x_n, & \quad \text{(martingale)}\\
+     \mathbb{E}[X_{n+1} | X_n = x_n, X_{n-1} = x_{n-1}, ..., X_0 = x_0] \geq x_n, & \quad \text{(submartingale)}\\
+   \end{cases}
+   $$
+
+A symmetric random walk is therefore a martingale:
+     $$ S_{n+1} =
+     \begin{cases}
+       S_n + 1, & \quad \text{w/ prob 0.5},\\
+       S_n - 1, & \quad \text{w/ prob 0.5}.
+     \end{cases}
+     $$
+
+Therefore, $$ \mathbb{E}[S_{n+1} | S_n = s_n] = s_n$$.
+
+## Stopping Rules
+
+A random variable $$\tau$$ taking values in the set $${0, 1, ..., +\infty}$$ is a stopping rule
+for an experiment with iid rvs $$X_0, X_1, ...$$ if the event $$ {\tau \leq n} $$ is independent
+of $$ X_{n+1}, X_{n+2}, ...$$, and $$ \mathbb{P}(\tau < \infty) = 1$$, i.e.,
+$$ \tau$$ is an rv that is independent of the future.
+
+## Wald's Equality
+
+Let $$ S_\tau = \sum_{i=0}^\tau X_i $$, then $$ \mathbb{E}[S_\tau] = \mathbb{E}[X_0]\mathbb{E}[\tau]$$. If also $$ \mathbb{E}[X^2_i] < \infty $$ then
+
+$$
+\mathbb{E}\left[(S_\tau - \tau \mathbb{E}\left[X_0\right])^2\right] = \mathbb{V}(X_0)\mathbb{E}[\tau].
+$$
 
 
 # References
 
 [1] https://www.stat.auckland.ac.nz/~fewster/325/
+
+[2] A. N. Shiryaev. Probability. Second Edition, Springer, 1989. Translated by R. P. Boas.
 
