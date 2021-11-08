@@ -8,7 +8,7 @@ profile:
   align: right
   image: profile.jpg
   address: >
-    <p>Tsim Sha Tsui</p>
+    <p>Discovery Bay,</p>
     <p>Hong Kong, China</p>
 
 news: true  # includes a list of news items
