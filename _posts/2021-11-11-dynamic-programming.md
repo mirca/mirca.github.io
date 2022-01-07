@@ -5,9 +5,7 @@ date: 2021-11-05 05:50:00
 description: a brief collection of notes
 ---
 
-An extremely short note on dynamic programming.
-
-# Dynamic Programming
+*An extremely short note on dynamic programming.*
 
 A control theory approach of dynamic programming considers a decision making
 scenario, where decisions are to be made in stages. The objective is to optimize
