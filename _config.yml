@@ -58,9 +58,9 @@ google_analytics: UA-XXXXXXXXX # out your google-analytics code
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: new deep # your blog must have a name for it to show up in the nav bar
-blog_description: Mandarin, open-water swimming, and research
-permalink: /blog/:year/:title/
+#blog_name: new deep # your blog must have a name for it to show up in the nav bar
+#blog_description: Mandarin, open-water swimming, and research
+#permalink: /blog/:year/:title/
 
 # Pagination
 pagination:
