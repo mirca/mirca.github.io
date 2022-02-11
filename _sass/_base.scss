@@ -2,6 +2,9 @@
  * Styles for the base elements of the theme.
  ******************************************************************************/
 
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;700&display=swap");
+
 // Typography
 
 a, table.table a {
@@ -25,7 +28,8 @@ a, table.table a {
 // Caption
 
 .caption {
-  font-size: 0.875rem;
+  font-size: 0.9rem;
+  font-family: "Fira Sans", monospace;
   margin-top: 0.75rem;
   margin-bottom: 1.5rem;
   text-align: center;
@@ -41,8 +45,8 @@ a, table.table a {
   .address {
     margin-bottom: 5px;
     margin-top: 5px;
-    font-family: monospace;
-    font-size: 1.2rem;
+    font-family: "Fira Code", monospace;
+    font-size: 0.9rem;
     p {
       display: inline-block;
       margin: 0;
@@ -61,7 +65,8 @@ a, table.table a {
 
 .post-description {
   margin-bottom: 2rem;
-  font-size: 0.875rem;
+  font-family: "Fira Sans";
+  font-size: 1.0rem;
   a {
     color: inherit;
     &:hover {
@@ -97,6 +102,7 @@ a, table.table a {
   }
   .navbar-nav .nav-item.active>.nav-link {
       background-color: inherit;
+      font-family: "Fira Sans", monospace;
       font-weight: bolder;
       color: var(--global-theme-color);
       &:hover {
@@ -104,6 +110,7 @@ a, table.table a {
       }
   }
   .contact-icon {
+    font-family: "Fira Sans", monospace;
     font-size: 2rem;
     a {
       &:hover {
@@ -148,11 +155,12 @@ a, table.table a {
   }
 }
 
-
 // News
 
 .news table td {
-  font-size: 1rem;
+  font-family: "Fira Sans", monospace;
+  width: 780px;
+  font-size: 0.95rem;
   color: var(--global-text-color);
 }
 
@@ -165,6 +173,7 @@ a, table.table a {
 .social {
   text-align: center;
   .contact-icon {
+    font-family: "Fira Sans", monospace;
     font-size: 4rem;
     a {
       color: var(--global-icon-color);
@@ -174,6 +183,7 @@ a, table.table a {
     }
   }
   .contact-note {
+    font-family: "Fira Sans", monospace;
     font-size: 0.8rem;
   }
 }
@@ -183,6 +193,7 @@ a, table.table a {
 footer.fixed-bottom {
   color: var(--global-footer-text-color);
   background-color: var(--global-footer-bg-color);
+  font-family: "Fira Sans", monospace;
   font-size: 0.75rem;
   .container {
     padding-top: 9px;
@@ -201,6 +212,7 @@ footer.sticky-bottom {
   border-top: 1px solid $grey-color-light;
   padding-top: 40px;
   padding-bottom: 40px;
+  font-family: "Fira Sans", monospace;
   font-size: 0.9rem;
 }
 
@@ -214,6 +226,7 @@ footer.sticky-bottom {
   padding-bottom: 5rem;
   h1 {
     color: var(--global-theme-color);
+    font-family: "Fira Sans", monospace;
     font-size: 5rem;
   }
 }
@@ -229,6 +242,7 @@ footer.sticky-bottom {
     padding-bottom: 2rem;
     .post-meta {
       color: $grey-color;
+      font-family: "Fira Sans", monospace;
       font-size: 0.875rem;
       margin-bottom: 0;
     }
@@ -303,6 +317,7 @@ footer.sticky-bottom {
   margin-top: 2rem;
   h1 {
     color: var(--global-theme-color);
+    font-family: "Fira Sans", monospace;
     font-size: 2rem;
     text-align: center;
     margin-top: 1em;
@@ -311,6 +326,7 @@ footer.sticky-bottom {
   h2 {
     margin-bottom: 1rem;
     span {
+      font-family: "Fira Sans", monospace;
       font-size: 1.5rem;
     }
   }
@@ -350,6 +366,7 @@ footer.sticky-bottom {
         }
       }
       .title {
+        font-family: "Fira Sans", monospace;
         font-weight: bolder;
       }
       .author {
@@ -362,6 +379,7 @@ footer.sticky-bottom {
         }
         > em {
           border-bottom: 1px solid;
+          font-family: "Fira Sans", monospace;
           font-style: normal;
         }
       }
@@ -380,6 +398,7 @@ footer.sticky-bottom {
         }
       }
       .hidden {
+        font-family: "Fira Sans", monospace;
         font-size: 0.875rem;
         max-height: 0px;
         overflow: hidden;
@@ -395,6 +414,7 @@ footer.sticky-bottom {
           margin: 10px;
         }
         pre {
+          font-family: "Fira Sans", monospace;
           font-size: 1em;
           line-height: 1.4em;
           padding: 10px;
