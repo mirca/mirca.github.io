@@ -27,5 +27,3 @@ I was a Google Summer of Code developer for [OpenAstronomy](https://www.openastr
 I spend most of my time doing [research](https://scholar.google.com/citations?hl=en&user=ilvNpCoAAAAJ&view_op=list_works&sortby=pubdate)
 and [coding](https://github.com/mirca). In my free time, there is nothing better than swimming and crab hunting in the waters
 of Clear Water Bay and video-chatting with my dog, Pluto.
-
-[Résumé](/assets/pdf/resume.pdf)
