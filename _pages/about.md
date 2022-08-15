@@ -27,8 +27,6 @@ and
 (3) guest researcher at [NIST](https://www/nist.gov) in Gaithersburg, Maryland.
 I was a Google Summer of Code developer for [OpenAstronomy](https://www.openastronomy.org).
 
-In the Summer of 2022, I'll be working as a quant in the Quantitative Strategies Group at Merrill Lynch.
-
 I spend most of my time doing [research](https://scholar.google.com/citations?hl=en&user=ilvNpCoAAAAJ&view_op=list_works&sortby=pubdate)
 and [coding](https://github.com/mirca). In my free time, there is nothing better than swimming and crab hunting in the waters
 of Clear Water Bay and video-chatting with my dog, Pluto.
