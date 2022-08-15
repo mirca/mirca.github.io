@@ -6,9 +6,9 @@ description:
 
 profile:
   align: right
-  image: profile.jpg
+  image: profile-harbor-race.png
   address: >
-    <p>Discovery Bay,</p>
+    <p>Wan Chai, 2021, Harbor Race,</p>
     <p>Hong Kong, China</p>
 
 news: true  # includes a list of news items
