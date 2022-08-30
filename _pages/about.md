@@ -22,10 +22,10 @@ More precisely, I design [optimization algorithms](https://en.wikipedia.org/wiki
 to extract knowledge from networks of financial assets. I have done a few internships along the way:
 (1) equity quant at Merill Lynch, Hong Kong;
 (2) research scientist at [Shell Street Labs](https://www.linkedin.com/company/shell-street-labs/about/), Hong Kong;
-(2) scientific software engineer at [NASA](https://exoplanets.nasa.gov/news/1529/meet-the-kepler-mission-team/) in Silicon Valley, California;
+(3) scientific software engineer at [NASA](https://exoplanets.nasa.gov/news/1529/meet-the-kepler-mission-team/) in Silicon Valley, California;
 and
-(3) guest researcher at [NIST](https://www/nist.gov) in Gaithersburg, Maryland.
-I was a Google Summer of Code developer for [OpenAstronomy](https://www.openastronomy.org).
+(4) guest researcher at [NIST](https://www/nist.gov) in Gaithersburg, Maryland;
+and (5) Google Summer of Code developer for [OpenAstronomy](https://www.openastronomy.org).
 
 I spend most of my time doing [research](https://scholar.google.com/citations?hl=en&user=ilvNpCoAAAAJ&view_op=list_works&sortby=pubdate)
 and [coding](https://github.com/mirca). In my free time, there is nothing better than swimming and crab hunting in the waters
