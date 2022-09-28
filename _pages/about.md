@@ -6,7 +6,7 @@ description:
 
 profile:
   align: right
-  image: profile-harbor-race.png
+  image: profile.jpeg
   address: >
     <p>Wan Chai, 2021, Harbor Race,</p>
     <p>Hong Kong, China</p>
