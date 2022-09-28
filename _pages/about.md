@@ -8,7 +8,7 @@ profile:
   align: right
   image: profile.jpeg
   address: >
-    <p>Wan Chai, 2021, Harbor Race,</p>
+    <p>Sai Kung, 2022</p>
     <p>Hong Kong, China</p>
 
 news: true  # includes a list of news items
