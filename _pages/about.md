@@ -26,7 +26,7 @@ I have done a few internships along the way:
 * equity quant at [Merrill Lynch](https://www.linkedin.com/company/bank-of-america-merrill-lynch/): wrote code for portfolio risk optimization and limit order book forecasting;
 * research scientist at [Shell Street Labs](https://www.linkedin.com/company/shell-street-labs/about/): wrote code for portfolio strategy optimization;
 * scientific software engineer at [NASA](https://exoplanets.nasa.gov/news/1529/meet-the-kepler-mission-team/): helped built [lightkurve](https://github.com/lightkurve/lightkurve);
-* Google Summer of Code developer for [OpenAstronomy](https://www.openastronomy.org): improved the point spread function photometry capabilities of [photutils](https://github.com/astropy/photutils/graphs/contributors).
+* Google Summer of Code developer for [OpenAstronomy](https://www.openastronomy.org): improved the point spread function photometry capabilities of [photutils](https://github.com/astropy/photutils/graphs/contributors);
 * guest researcher at [NIST](https://www/nist.gov): research on nanophotonics published in [Nature](https://www.nature.com/articles/s41467-017-00987-6);
 
 I spend most of my time doing [research](https://scholar.google.com/citations?hl=en&user=ilvNpCoAAAAJ&view_op=list_works&sortby=pubdate)
