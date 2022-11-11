@@ -5,4 +5,4 @@ inline: true
 ---
 
 I am extremely happy to say that our paper
-[Learning Bipartite Graphs: Heavy Tails and Multiple Components](https://github.com/mirca/bipartite) has been accepted to NeurIPS 2022!
+[Learning Bipartite Graphs: Heavy Tails and Multiple Components](https://openreview.net/pdf?id=WNSyF9qZaMd) has been accepted to NeurIPS 2022!
