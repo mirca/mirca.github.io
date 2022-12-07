@@ -75,9 +75,8 @@ disqus_shortname: # put your disqus shortname
 
 collections:
   news:
-    defaults:
       layout: post
-    output: false
+    output: true
     permalink: /news/:path/
   projects:
     output: true
