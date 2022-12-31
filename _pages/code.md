@@ -2,7 +2,7 @@
 layout: page
 title: code
 permalink: /code/
-description: open-source projects that I've built with Prof. Daniel Palomar
+description: open-source projects that I work on during my PhD
 nav: true
 ---
 
