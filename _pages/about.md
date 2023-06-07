@@ -16,7 +16,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 
-Hi there! My name is Zé Vinícius!
+Hi there!
 
 I graduated with a PhD from the Department of Electronic and Computer Engineering at HKUST, in sunny Hong Kong,
 where I was a member of the [Convex Optimization in Finance Group](https://github.com/convexfi) advised by [Prof Daniel Palomar](https://danielppalomar.com).
