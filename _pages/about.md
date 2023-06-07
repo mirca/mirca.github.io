@@ -16,12 +16,18 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 
-Hi there! I'm Zé Vinícius, a PhD candidate at HKUST, in sunny Hong Kong, working with [Prof. Daniel Palomar](https://github.com/dppalomar)
-on research problems involving [graphs](https://en.wikipedia.org/wiki/Graph_(discrete_mathematics)) and financial time series.
-I design [optimization algorithms](https://en.wikipedia.org/wiki/Mathematical_optimization) using elements of [graph theory](https://en.wikipedia.org/wiki/Graph_theory) and [statistical learning theory](https://en.wikipedia.org/wiki/Statistical_learning_theory)
-to extract knowledge from networks of financial assets.
+Hi there! My name is Zé Vinícius!
 
-I have done a few internships along the way:
+I graduated with a PhD from the Department of Electronic and Computer Engineering at HKUST, in sunny Hong Kong,
+where I was a member of the [Convex Optimization in Finance Group](https://github.com/convexfi) advised by [Prof Daniel Palomar](https://danielppalomar.com).
+My PhD thesis focused on research problems involving [graphs](https://en.wikipedia.org/wiki/Graph_(discrete_mathematics)) and financial
+time series, where I designed [optimization algorithms](https://en.wikipedia.org/wiki/Mathematical_optimization) combined with elements of
+[graph theory](https://en.wikipedia.org/wiki/Graph_theory) and
+[statistical learning theory](https://en.wikipedia.org/wiki/Statistical_learning_theory),
+to extract knowledge from networks of financial assets. The results of our research during my PhD were published in venues such as
+NeurIPS, ICML, JMLR, AISTATS, and AAAI. I also served as a reviewer for NeurIPS, ICML, ICLR, JMLR, and IEEE TNNLS.
+
+I have done a number of internships along the way:
 
 * equity quant at [Merrill Lynch](https://www.linkedin.com/company/bank-of-america-merrill-lynch/): wrote code for portfolio risk optimization and limit order book forecasting;
 * research scientist at [Shell Street Labs](https://www.linkedin.com/company/shell-street-labs/about/): wrote code for portfolio strategy optimization;
@@ -29,7 +35,4 @@ I have done a few internships along the way:
 * Google Summer of Code developer for [OpenAstronomy](https://www.openastronomy.org): improved the point spread function photometry capabilities of [photutils](https://github.com/astropy/photutils/graphs/contributors);
 * guest researcher at [National Institute of Standards and Technology (NIST)](https://www.nist.gov): research on nanophotonics published in [Nature](https://www.nature.com/articles/s41467-017-00987-6) and [Review of Scientific Instruments](https://aip.scitation.org/doi/full/10.1063/1.4976578);
 
-I spend most of my time doing [research](https://scholar.google.com/citations?hl=en&user=ilvNpCoAAAAJ&view_op=list_works&sortby=pubdate)
-and [coding](https://github.com/mirca). I also act as a reviewer for NeurIPS, ICML, ICLR, JMLR, and IEEE TNNLS.
-In my free time, there is nothing better than swimming and crab hunting in the waters
-of Clear Water Bay and video-chatting with my nephew Chico and my dog Pluto.
+I'll be joining Merrill Lynch on August 2023 as an equity trader on the Central Risk desk.
