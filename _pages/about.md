@@ -9,7 +9,7 @@ profile:
   image: profile.jpeg
   address: >
     <p>Sai Kung, 2022</p>
-    <p>Hong Kong, China</p>
+    <p>Hong Kong</p>
 
 news: false  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
