@@ -16,6 +16,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 
+<!--
 Hi there!
 
 I graduated with a PhD from the Department of Electronic and Computer Engineering at HKUST, in sunny Hong Kong,
@@ -38,3 +39,18 @@ I have done a number of internships along the way:
 * guest researcher at [National Institute of Standards and Technology (NIST)](https://www.nist.gov): research on nanophotonics published in [Nature](https://www.nature.com/articles/s41467-017-00987-6) and [Review of Scientific Instruments](https://aip.scitation.org/doi/full/10.1063/1.4976578);
 
 I'll be joining Merrill Lynch on August 2023 as an equity trader on the Central Risk Book desk.
+-->
+
+## Career
+
+* 2023-now: Equity Trader, [**Merrill Lynch**](https://www.linkedin.com/company/bank-of-america-merrill-lynch/), Hong Kong
+* 2022: Equity Quant, [**Merrill Lynch**](https://www.linkedin.com/company/bank-of-america-merrill-lynch/), Hong Kong
+* 2021: Research Scientist, [**Shell Street Labs**](https://www.linkedin.com/company/shell-street-labs/about/), Hong Kong
+* 2017-2018: Scientific Software Engineer, [**National Aeronautics and Space Administration (NASA)**](https://exoplanets.nasa.gov/news/1529/meet-the-kepler-mission-team/), Mountain View, CA, USA
+* 2016: Google Summer of Code Developer, **[OpenAstronomy](https://www.openastronomy.org)**, Remote
+* 2015: Guest Researcher, **[National Institute of Standards and Technology (NIST)](https://www.nist.gov)**, Gaithersburg, MD, USA
+
+## Education
+
+* 2023: **PhD in Electronic & Computer Engineering**, The Hong Kong University of Science and Technology, Hong Kong
+* 2019: **BEng in Electrical Engineering**, Universidade Federal de Campina Grande, Brazil
