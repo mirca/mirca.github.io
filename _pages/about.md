@@ -41,7 +41,7 @@ I have done a number of internships along the way:
 I'll be joining Merrill Lynch on August 2023 as an equity trader on the Central Risk Book desk.
 -->
 
-## Career
+## career
 
 * 2023-now: Equity Trader, [**Merrill Lynch**](https://www.linkedin.com/company/bank-of-america-merrill-lynch/), Hong Kong
 * 2022: Equity Quant, [**Merrill Lynch**](https://www.linkedin.com/company/bank-of-america-merrill-lynch/), Hong Kong
@@ -50,7 +50,7 @@ I'll be joining Merrill Lynch on August 2023 as an equity trader on the Central 
 * 2016: Google Summer of Code Developer, **[OpenAstronomy](https://www.openastronomy.org)**, Remote
 * 2015: Guest Researcher, **[National Institute of Standards and Technology (NIST)](https://www.nist.gov)**, Gaithersburg, MD, USA
 
-## Education
+## education
 
 * 2023: **PhD in Electronic & Computer Engineering**, The Hong Kong University of Science and Technology, Hong Kong
 * 2019: **BEng in Electrical Engineering**, Universidade Federal de Campina Grande, Brazil
