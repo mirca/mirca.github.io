@@ -32,7 +32,7 @@ NeurIPS, ICML, JMLR, AISTATS, and AAAI. I also served as a reviewer for NeurIPS,
 
 I have done a number of internships along the way:
 
-* equity quant at [Merrill Lynch](https://www.linkedin.com/company/bank-of-america-merrill-lynch/): wrote code for portfolio risk optimization and limit order book forecasting;
+* equity quant at [Merrill Lynch (Bank of America)](https://www.linkedin.com/company/bank-of-america-merrill-lynch/): wrote code for portfolio risk optimization and limit order book forecasting;
 * research scientist at [Shell Street Labs](https://www.linkedin.com/company/shell-street-labs/about/): wrote code for portfolio strategy optimization;
 * scientific software engineer at [National Aeronautics and Space Administration (NASA)](https://exoplanets.nasa.gov/news/1529/meet-the-kepler-mission-team/): part of the lead developers team of [lightkurve](https://github.com/lightkurve/lightkurve), an open source package for time series analysis of NASA [Kepler, K2](https://www.nasa.gov/mission_pages/kepler/main/index.html), & [TESS](https://exoplanets.nasa.gov/tess/) data;
 * Google Summer of Code developer for [OpenAstronomy](https://www.openastronomy.org): improved the point spread function photometry capabilities of [photutils](https://github.com/astropy/photutils/graphs/contributors);
@@ -43,8 +43,8 @@ I'll be joining Merrill Lynch on August 2023 as an equity trader on the Central 
 
 ## career
 
-* 2023-now: Quant Trader, [**Merrill Lynch**](https://www.linkedin.com/company/bank-of-america/), Hong Kong
-* 2022: Quant Strat, [**Merrill Lynch**](https://www.linkedin.com/company/bank-of-america/), Hong Kong
+* 2023-now: Quant Trader, [**Merrill Lynch (Bank of America)**](https://www.linkedin.com/company/bank-of-america/), Hong Kong
+* 2022: Quant Strat, [**Merrill Lynch (Bank of America)**](https://www.linkedin.com/company/bank-of-america/), Hong Kong
 * 2021: Research Scientist, [**Shell Street Labs**](https://www.linkedin.com/company/shell-street-labs/about/), Hong Kong
 * 2017-2018: Scientific Software Engineer, [**National Aeronautics and Space Administration (NASA)**](https://exoplanets.nasa.gov/news/1529/meet-the-kepler-mission-team/), Mountain View, CA, USA
 * 2016: Google Summer of Code Developer, **[OpenAstronomy](https://www.openastronomy.org)**, Remote
