@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-<title>José Vinícius de Miranda Cardoso   | zevini website</title>
+<title>José Vinícius de Miranda Cardoso   | Graph Learning with Spectral Constraints</title>
 <meta name="description" content="zevini personal website
 ">
 
@@ -29,7 +29,7 @@
 <link rel="shortcut icon" href="/assets/img/favicon.png">
 <link rel="stylesheet" href="/assets/css/main.css">
 
-<link rel="canonical" href="/blog/">
+<link rel="canonical" href="/projects/spectral-constraints/">
 
 <!-- Theming-->
 
@@ -132,18 +132,47 @@
     <div class="container mt-5">
       <div class="post">
 
-  <div class="header-bar">
-    <h1></h1>
-    <h2></h2>
-  </div>
+  <header class="post-header">
+    <h1 class="post-title">Graph Learning with Spectral Constraints</h1>
+    <p class="post-description"></p>
+  </header>
 
+  <article>
+    <p>In this project we propose optimization algorithms to learn graphs with certain spectral properties
+such as \(k\)-components and bipartite.  The key idea in this project lies in the fact that the structure
+of graphs can be controlled via the eigenvalues of their Laplacian and/or adjacency matrices. For instance,
+the Laplacian matrix of \(k\)-component graphs contains exactly \(k\) zero eigenvalues, whereas the adjacency matrix
+of bipartite graphs contains symmetric eigenvalues around zero.</p>
 
-  <ul class="post-list">
-    
-  </ul>
+<p>From a statistical point of view, we assume a Laplacian matrix model for the precision matrix of a
+Gaussian Markov Random Field (aka weighted, undirected graphical model):</p>
 
-  
+\[\mathbf{x} \sim \mathcal{N}(\mathbf{0}, \mathbf{L}^\dagger),\]
 
+<p>where \(\mathbf{x} \in \mathbb{R}^p\) is a \(p\)-dimensional random vector representing the nodes of the graph
+and \(\mathbf{L}\) is its corresponding precision matrix which satisfies the Laplacian properties, i.e.,
+\(\mathbf{L}\mathbf{1} = \mathbf{0}\),
+\(L_{ij} = L_{ji} \leq 0\).</p>
+
+<p>The maximum likelihood estimator for this model can then be formulated as follows</p>
+
+\[\begin{array}{cl}
+    \underset{\mathbf{L} \succeq \mathbf{0}}{\mathsf{minimize}} &amp; \mathsf{tr}\left(\mathbf{S}\mathbf{L}\right)
+    - \log\mathrm{det}^*\left(\mathbf{L}\right),\\
+    \mathsf{subject~to} &amp; \mathsf{rank}(\mathbf{L}) = p-k,~ \mathbf{L}\mathbf{1} = \mathbf{0},~L_{ij} = L_{ji} \leq 0,
+  \end{array}\]
+
+<p>where \(\mathrm{det}^*(\mathbf{L})\) corresponds to the product of the positive eigenvalues of \(\mathbf{L}\).</p>
+
+<h3 id="publications">Publications</h3>
+<p>The publications associated with this project are the following:</p>
+
+<ol>
+  <li><a href="https://papers.nips.cc/paper/9339-structured-graph-learning-via-laplacian-spectral-constraints">Structured Graph Learning Via Laplacian Spectral Constraints</a> at NeurIPS 2019</li>
+  <li><a href="https://www.jmlr.org/papers/v21/19-276.html">A Unified Framework for Structured Graph Learning via Spectral Constraints</a> at JMLR 2020</li>
+</ol>
+
+  </article>
 
 </div>
 
