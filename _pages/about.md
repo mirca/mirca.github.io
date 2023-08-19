@@ -47,7 +47,7 @@ I'll be joining Merrill Lynch on August 2023 as an equity trader on the Central 
 * 2022: Quant, [**Merrill Lynch (Bank of America)**](https://www.linkedin.com/company/bank-of-america/), Hong Kong
 * 2021: Research Scientist, [**Shell Street Labs**](https://www.linkedin.com/company/shell-street-labs/about/), Hong Kong
 * 2017-2018: Scientific Software Engineer, [**National Aeronautics and Space Administration (NASA)**](https://exoplanets.nasa.gov/news/1529/meet-the-kepler-mission-team/), Mountain View, CA, USA
-* 2016: Google Summer of Code Developer, **[OpenAstronomy](https://www.openastronomy.org)**, Remote
+* 2016: Google Summer of Code Developer, **[AstroPy](https://www.astropy.org)**, Remote
 * 2015: Guest Researcher, **[National Institute of Standards and Technology (NIST)](https://www.nist.gov)**, Gaithersburg, MD, USA
 
 ## education
