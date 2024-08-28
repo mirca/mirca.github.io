@@ -43,7 +43,7 @@ I'll be joining Merrill Lynch on August 2023 as an equity trader on the Central 
 
 ## career
 
-* 2023-now: Quantitative Trader, [**Merrill Lynch (Bank of America)**](https://www.linkedin.com/company/bank-of-america/), Hong Kong
+* 2023-2024: Quantitative Trader, [**Merrill Lynch (Bank of America)**](https://www.linkedin.com/company/bank-of-america/), Hong Kong
 * 2022: Quantitative Strategist, [**Merrill Lynch (Bank of America)**](https://www.linkedin.com/company/bank-of-america/), Hong Kong
 * 2021: Research Scientist, [**Shell Street Labs**](https://www.linkedin.com/company/shell-street-labs/about/), Hong Kong
 * 2017-2018: Scientific Software Engineer, [**National Aeronautics and Space Administration (NASA)**](https://exoplanets.nasa.gov/news/1529/meet-the-kepler-mission-team/), Mountain View, CA, USA
