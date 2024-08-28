@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-<title>José Vinícius de Miranda Cardoso   | zevini website</title>
+<title>José Vinícius de Miranda Cardoso   | Dynamic Programming</title>
 <meta name="description" content="zevini personal website
 ">
 
@@ -29,7 +29,7 @@
 <link rel="shortcut icon" href="/assets/img/favicon.png">
 <link rel="stylesheet" href="/assets/css/main.css">
 
-<link rel="canonical" href="/blog/">
+<link rel="canonical" href="/2021/11/05/dynamic-programming.html">
 
 <!-- Theming-->
 
@@ -130,38 +130,76 @@
     <!-- Content -->
 
     <div class="container mt-5">
-      <div class="post">
+      
 
-  <div class="header-bar">
-    <h1></h1>
-    <h2></h2>
-  </div>
+<div class="post">
 
+  <header class="post-header">
+    <h1 class="post-title">Dynamic Programming</h1>
+    <p class="post-meta">November 5, 2021</p>
+  </header>
 
-  <ul class="post-list">
-    
-      <li>
-        <h3><a class="post-title" href="/2021/11/05/dynamic-programming.html">Dynamic Programming</a></h3>
-        <p class="post-meta">November 5, 2021</p>
-        <p>a brief collection of notes</p>
-      </li>
-    
-      <li>
-        <h3><a class="post-title" href="/2021/11/05/martingale-and-random-walks.html">Markov Chains, Random Walks, and Martingales</a></h3>
-        <p class="post-meta">November 5, 2021</p>
-        <p>a brief collection of notes</p>
-      </li>
-    
-      <li>
-        <h3><a class="post-title" href="/2021/01/26/admm-talk.html">the alternating direction method of multipliers</a></h3>
-        <p class="post-meta">January 26, 2021</p>
-        <p>numerical optimization made easy</p>
-      </li>
-    
-  </ul>
+  <article class="post-content">
+    <p>An extremely short note on dynamic programming.</p>
+
+<h1 id="dynamic-programming">Dynamic Programming</h1>
+
+<p>A control theory approach of dynamic programming considers a decision making
+scenario, where decisions are to be made in stages. The objective is to optimize
+some reward or cost funciton.</p>
+
+<p>Dynamic programming is a technique to tackle those problems. At each stage, it ranks
+decisions based on the sum of the present cost and the expected future cost,
+assuming an optimal decision making for subsequent stages.</p>
+
+<p>The model we consider has two components: (1) a discrete dynamic time system,
+and (2) a cost function that is additive over time.</p>
+
+<p>The first component, <em>i.e.</em>, the discrete dynamic system, is modeled as</p>
+
+<p>\(x_{k+1} = f_{k}(x_{k}, u_{k}, w_{k}),\)
+where \(x_k\) is the state of the system,
+\(u_k\) is the decision (control) variable, and
+\(w_k\) is a random variable that models the noise assumptions,
+\(k = 0, 1, ..., n-1\).</p>
+
+<p>The second component, the cost function, is modeled as</p>
+
+\[J_{\pi}(x_0) = \mathbb{E}\left\{g_n(x_n) + \sum_{k=0}^{n-1} g_k(x_k, \pi_k(x_k), w_k)\right\},\]
+
+<p>where \(x_0\) is a given initial state of the system,
+\(\pi_k\) is a policy to decide
+the value of the control variable, <em>i.e.</em>,
+\(u_k = \pi_k (x_k)\).</p>
+
+<p>Our goal is to find an optimal policy \(\pi^{\star}\) such that the exepcted
+cost is minimized</p>
+
+\[\pi^\star = \underset{\pi ~ \in ~ \Pi}{\mathsf{arg}~\mathsf{min}} ~ J_{\pi}(x_0),\]
+
+<p>where \(\Pi\) is the set of all admissible policies.</p>
+
+<h2 id="principle-of-optimality">Principle of Optimality</h2>
+
+<p>Let \(\pi^\star = \left\{\pi^\star_0, \pi^\star_1, ..., \pi^\star_{n-1}\right\}\)
+be an optimal policy for the basic problem, and assume that when using
+\(\pi^\star\), a given state \(x_i\) occurs at time \(i\) with
+positive probability.
+Consider the subproblem whereby we are at \(x_i\) at time \(i\) and wish to
+minimize the cost-to-go function from time \(i\) to time \(n\)</p>
+
+\[\mathbb{E}\left\{g(x_n) + \sum_{k=i}^{n-1}g_k(x_k, \pi_k(x_k), w_k)\right\}.\]
+
+<p>Then the truncated policy \((\pi^\star_i, \pi^\star_{i+1}, ..., \pi^\star_{n-1})\)
+is optimal for this subproblem.</p>
+
+<h2 id="references">References</h2>
+
+<p>D. Bertsekas. Dynamic Programming and Optimal Control. Massachusetts Institute of Technology, Volume 1, 3rd Ed., 2005.</p>
+
+  </article>
 
   
-
 
 </div>
 
