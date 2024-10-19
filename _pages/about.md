@@ -43,6 +43,7 @@ I'll be joining Merrill Lynch on August 2023 as an equity trader on the Central 
 
 ## career
 
+* 2024-current: Quantitative Trader, [**Morgan Stanely**](https://www.linkedin.com/company/morgan-stanley/), Hong Kong
 * 2023-2024: Quantitative Trader, [**Merrill Lynch (Bank of America)**](https://www.linkedin.com/company/bank-of-america/), Hong Kong
 * 2022: Quantitative Strategist, [**Merrill Lynch (Bank of America)**](https://www.linkedin.com/company/bank-of-america/), Hong Kong
 * 2021: Research Scientist, [**Shell Street Labs**](https://www.linkedin.com/company/shell-street-labs/about/), Hong Kong
